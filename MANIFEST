@@ -1,0 +1,7 @@
+lib/Scraper.pm
+LICENSE
+Makefile.PL
+MANIFEST			The list of files
+README.md
+script/answerme.pl
+t/compile.t

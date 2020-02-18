@@ -9,6 +9,7 @@ use HTML::FormatText::WithLinks;
 use FindBin;                     
 use lib "$FindBin::RealBin/";
 
+our $VERSION = 0.01;
 
 sub getRequest($) {
     my $req = WWW::Mechanize->new();

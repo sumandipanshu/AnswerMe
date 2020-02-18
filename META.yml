@@ -1,0 +1,32 @@
+---
+abstract: 'Scraping query results from StackOverflow and Google'
+author:
+  - 'Dipanshu <https://github.com/sumandipanshu>'
+build_requires:
+  ExtUtils::MakeMaker: '0'
+  Test::More: '1.302171'
+configure_requires:
+  ExtUtils::MakeMaker: '0'
+dynamic_config: 0
+generated_by: 'ExtUtils::MakeMaker version 7.44, CPAN::Meta::Converter version 2.150010'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: AnswerMe
+no_index:
+  directory:
+    - t
+    - inc
+requires:
+  FindBin: '1.51'
+  HTML::FormatText::WithLinks: '0.15'
+  HTML::TreeBuilder::XPath: '0.14'
+  JSON::XS: '4.02'
+  WWW::Mechanize: '1.95'
+  lib: '0.64'
+resources:
+  bugtracker: https://github.com/sumandipanshu/answerme/issues
+  repository: https://github.com/sumandipanshu/answerme
+version: 0.01
+x_serialization_backend: 'CPAN::Meta::YAML version 0.018'
