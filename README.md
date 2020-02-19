@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://i.imgur.com/G7RSyCh.jpg" height="300" alt"answerme">
+    <img src="https://i.imgur.com/G7RSyCh.jpg" width="490" height="300" alt"answerme">
     <br>
     <img src="https://img.shields.io/github/languages/top/sumandipanshu/AnswerMe?style=for-the-badge&logo=appveyor"
         alt="Perl">
@@ -15,20 +15,17 @@
 </p>
 
 ---
-*AnswerMe* is a script (wriiten in `perl`) for getting stackoverflow
-Answers for those who are constantly googling for doing basic
-programming tasks.
-Now it uses both google as well as Stackoverflow to get the results,
-because lets agree, google's search algorithm is way better than
-stackoverflow's search algorithm.
+*AnswerMe* is a script (wriiten in `perl`) which fetches you the StackOverflow answers for all of your programming/coding doubts.
+It uses StackOverflow as well as Google's best search results available.
 
-It is inspired by [HowTo](https://github.com/pr4k/howto) which is purely
-written in Go.
+It is inspired from [HowTo](https://github.com/pr4k/howto) which is purely
+written in `Go`.
 </p>
 
 ---
 # Installation
-To install this script, type the following:
+Clone the repo, install prerequisites (see below), then build it:
+
 ```bash
 # clone this repo
 $ git clone https://github.com/sumandipanshu/AnswerMe.git
@@ -39,14 +36,24 @@ $ cd AnswerMe
 # install perl5 if not installed
 
 $ perl Makefile.PL
-$ make
 
-# to check if package was build successfully
-$ make test
-
+# build + unit tests
+$ make && make test
+```
+Then install it:
+```bash
 # this step may require writing permissions
 $ sudo make install
 ```
+**Note:** On Windows platforms, you should use `dmake` or `nmake`, instead of `make`.
+
+If your perl is system-managed, you can create a local::lib in your home
+directory to install modules to. For details, see the local::lib documentation:
+https://metacpan.org/pod/local::lib
+
+The prerequisites of this distribution will also have to be installed manually. The
+prerequisites are listed in one of the files: `MYMETA.yml` or `MYMETA.json` generated
+by running the manual build process described above.
 
 # Usage
 To run this script, type the following:

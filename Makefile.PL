@@ -24,7 +24,7 @@ WriteMakefile(
         'Test::More' => '1.3'
     },
     META_MERGE => {
-        'meta-spec' => {version =>0},
+        'meta-spec' => {version =>2},
         resources => {
             repository =>{
                 type => 'git',

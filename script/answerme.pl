@@ -4,8 +4,7 @@ use strict;
 use warnings;
 use utf8;
 use JSON::XS;
-use FindBin;                     
-use lib "$FindBin::RealBin/lib";
+use lib "../lib";
 use Scraper;
 
 sub googleSearch($){
