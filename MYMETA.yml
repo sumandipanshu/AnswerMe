@@ -4,7 +4,7 @@ author:
   - 'Dipanshu <https://github.com/sumandipanshu>'
 build_requires:
   ExtUtils::MakeMaker: '0'
-  Test::More: '1.302171'
+  Test::More: '1.3'
 configure_requires:
   ExtUtils::MakeMaker: '0'
 dynamic_config: 0
@@ -13,20 +13,19 @@ license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: '1.4'
-name: AnswerMe
+name: Scraper
 no_index:
   directory:
     - t
     - inc
 requires:
-  FindBin: '1.51'
   HTML::FormatText::WithLinks: '0.15'
-  HTML::TreeBuilder::XPath: '0.14'
-  JSON::XS: '4.02'
-  WWW::Mechanize: '1.95'
+  HTML::TreeBuilder::XPath: '0.11'
+  JSON::XS: '4'
+  WWW::Mechanize: '1.92'
   lib: '0.64'
 resources:
-  bugtracker: https://github.com/sumandipanshu/answerme/issues
-  repository: https://github.com/sumandipanshu/answerme
+  bugtracker: https://github.com/sumandipanshu/AnswerMe/issues
+  repository: https://github.com/sumandipanshu/AnswerMe
 version: 0.01
 x_serialization_backend: 'CPAN::Meta::YAML version 0.018'

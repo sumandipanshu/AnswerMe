@@ -15,7 +15,7 @@
 </p>
 
 ---
-*AnswerMe* is a script (wriiten in `perl`) which fetches you the StackOverflow answers for all of your programming/coding doubts.
+*AnswerMe* is a script (written in `perl`) which fetches you the StackOverflow answers for all of your programming/coding doubts.
 It uses StackOverflow as well as Google's best search results available.
 
 It is inspired from [HowTo](https://github.com/pr4k/howto) which is purely
